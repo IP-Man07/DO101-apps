@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Agora estamos na versão 2 do programa. Ahora hablamos português!' + '\n';
+    response = 'Und jetzt: versionen 3! In Deutsch!!! Wunderschön.' + '\n';
 
     //send the response to the client
     res.send(response);
